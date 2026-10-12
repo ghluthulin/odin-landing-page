@@ -119,6 +119,11 @@ a {
 
 .quote-section {
     background-color: #E5E7EB;
+    padding: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .quote-text {
@@ -126,4 +131,13 @@ a {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+    width: 800px;
+    text-wrap: wrap;
+}
+
+.quote-name {
+    align-self: flex-end;
+    padding-right: 225px;
+    font-size: 24px;
+    font-weight: bold;
 }
