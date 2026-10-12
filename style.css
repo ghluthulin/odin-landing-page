@@ -72,6 +72,7 @@ a {
     font-weight: bold;
     padding: 5px 30px;
     border-radius: 8px;
+    border: none;
 }
 
 .sign-up-section, .sign-up {
@@ -140,4 +141,40 @@ a {
     padding-right: 225px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.sign-up-section {
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: 2px solid #F9FAF8;
+    border-radius: 4px;
+    color: #F9FAF8;
+}
+
+.sign-up-main {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-up-text {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    color: #F9FAF8;
+    padding: 40px;
+    text-align: center;
 }
