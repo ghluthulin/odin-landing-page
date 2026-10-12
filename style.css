@@ -78,10 +78,43 @@ a {
     background-color: #3882F6;
 }
 
+.info-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+
 .info-title {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 60px 60px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-image {
+    outline: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info-text {
+    display: flex;
+    width: 150px;
+    text-wrap: wrap;
+    text-align: center;
 }
 
 .quote-section {
